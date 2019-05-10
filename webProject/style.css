@@ -1,0 +1,119 @@
+body{
+margin:0;
+padding: 0;
+background: url(background.jpg);
+background-size: cover;
+font-family: sans-serif;
+}
+.login-box{
+    width: 320px;
+    height: 500px;
+    background: rgb(231, 190, 4);
+    color: #ffff;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.ninja{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    top:-50%;
+    transform: translate(35%,-90%);
+}
+h1{
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: center;
+    transform: translate(0%,-250%);
+    font-size: 40px;
+    color: rgb(59, 31, 11);
+
+}
+h2{
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: center;
+    transform: translate(0%,-550%);
+    font-size: 15px;
+    color: rgb(59, 31, 11);
+
+}
+h3{
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: center;
+    transform: translate(0%,-500%);
+    font-size: 15px;
+    color: rgb(59, 31, 11);
+
+}
+h4{
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: center;
+    transform: translate(0%,-475%);
+    font-size: 15px;
+    color: rgb(48, 45, 4);
+
+}
+h5{
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: center;
+    transform: translate(3%,-475%);
+    font-size: 15px;
+    color: rgb(48, 45, 4);
+
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 40px;
+    transform: translate(0%,-200%);
+}
+.login-box input[type="text"]{
+ border:none;
+ border-bottom: 1px solid red;
+ background: transparent;
+ outline: none;
+ height: 20px;
+ color:black;
+ font-size: 20px;
+ 
+}
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #1c8abd;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.left img[id="image1"]{
+    border: none;
+    outline: none;
+    height: 20px;
+    background:transparent;
+    transform: translate(200%,-300%);
+    font-size: 18px;
+    border-radius: 20px;
+}
+.right img[id="image2"]{
+    border: none;
+    outline: none;
+    height: 20px;
+    background:transparent;
+    transform: translate(200%,-300%);
+    font-size: 18px;
+    border-radius: 20px;
+}
+
